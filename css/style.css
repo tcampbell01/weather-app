@@ -2,7 +2,26 @@ h1 {
     font-weight:bold;
     color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left:auto;
-    margin-right:auto;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    
+    background:blue;
 
+}
+p {
+    font-weight:bold;
+    color:black;
+    font-size:36px;
+}
+.btn-btn-primary {
+    background-color:lightskyblue;
+    color:white;
+    font-weight:bold;
+    width:171px;
+    margin-top:30px;
+}
+
+.form-group {
+    width: 200px;
 }
