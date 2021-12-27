@@ -1,16 +1,17 @@
 
 
 
-
+document.getElementById("input").onclick = function () {
 
 function getCity() {
     var cityInput = document.getElementById("city-input").value;
-    
+    console.log(cityInput);
 
 }
 
 getCity();
-console.log(cityInput);
+}
+
 
 //var key = '{cd896d7cd9e9b2967e53ada8c52918e6}';
 
