@@ -82,9 +82,35 @@ function getCity(){
         document.getElementById('date4').innerHTML=info.list[25].dt_txt;
         document.getElementById('date5').innerHTML=info.list[33].dt_txt;
 
-        
+        var iconCode1 = info.list[1].weather[0].icon;
+        var image1 = document.createElement("img");
+        image1.setAttribute("src", "http://openweathermap.org/img/wn/" + iconCode1 + "@2x" + ".png");
+        document.getElementById('icon1').appendChild(image1);
 
-        
+
+        var iconCode2 = info.list[9].weather[0].icon;
+        var image2 = document.createElement("img");
+        image2.setAttribute("src", "http://openweathermap.org/img/wn/" + iconCode2 + "@2x" + ".png");
+        document.getElementById('icon2').appendChild(image2);
+
+    
+        var iconCode3 = info.list[17].weather[0].icon;
+        var image3 = document.createElement("img");
+        image3.setAttribute("src", "http://openweathermap.org/img/wn/" + iconCode3 + "@2x" + ".png");
+        document.getElementById('icon3').appendChild(image3);
+
+        var iconCode4 = info.list[25].weather[0].icon;
+        var image4 = document.createElement("img");
+        image4.setAttribute("src", "http://openweathermap.org/img/wn/" + iconCode4 + "@2x" + ".png");
+        document.getElementById('icon4').appendChild(image4);
+
+        var iconCode5 = info.list[33].weather[0].icon;
+        var image5 = document.createElement("img");
+        image5.setAttribute("src", "http://openweathermap.org/img/wn/" + iconCode5 + "@2x" + ".png");
+        document.getElementById('icon5').appendChild(image5);
+
+
+
 
 
 
