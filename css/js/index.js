@@ -1,6 +1,8 @@
 var key = 'cd896d7cd9e9b2967e53ada8c52918e6';
 var temp = document.getElementById("temp");
 
+var selectedCities = [];
+
 
 
 document.getElementById("input").onclick = function () {
