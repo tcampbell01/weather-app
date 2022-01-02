@@ -5,60 +5,32 @@ var selectedCities = [];
 
 document.getElementById("input").onclick = function () {
 
-  
+    var cityInput = document.getElementById("city-input").value;
 
     function getCity() {
 
-        //captures the entered city
-        var cityInput = document.getElementById("city-input").value;
-        console.log(cityInput);
-
-       // var btn = document.createElement("button");
-        //btn.innerHTML = cityInput;
-        //document.getElementById('form-group').appendChild(btn);
-
-        
-        
-       // let selectedCities=[];
-
        function addTo() { 
         selectedCities.push(cityInput);
-        console.log(selectedCities); 
-
-    
-
+      
       for (var i = 0; i < selectedCities.length; i++) {
-        localStorage.setItem('cities', JSON.stringify(selectedCities));
-        JSON.parse(localStorage.getItem('cities'));
-        var btn = document.createElement("button");
-        btn.innerHTML = cityInput;
-        document.getElementById('form-group').appendChild(btn);
+        
+        localStorage.setItem('cities', JSON.stringify(selectedCities));   
+        
       }
-      
-
-
-
-     // Retrieve the object from storage
      
-      
-      //localStorage.getItems("cities");
     }
-  
-
+    
       addTo ();
 
-      
-       //cycle through array using a for loop
-       //for each part of the array, add to local storage
-       //for each part of the array, retrieve from local storage 
+       function retrieveCity () {
 
-     
+      JSON.parse(localStorage.getItem('cities'));
+      var btn = document.createElement("button");   // Create a <button> element
+      btn.innerText = cityInput;                   // Insert text
+      document.getElementById('form-group').appendChild(btn); 
+      };
 
-      
-        
-
-
-       
+    retrieveCity ();
 
       
 
@@ -137,6 +109,8 @@ document.getElementById("input").onclick = function () {
                     document.getElementById('date4').innerHTML = info.list[25].dt_txt;
                     document.getElementById('date5').innerHTML = info.list[33].dt_txt;
 
+                   
+                   
                     var iconCode1 = info.list[1].weather[0].icon;
                     var image1 = document.createElement("img");
                     image1.setAttribute("src", "http://openweathermap.org/img/wn/" + iconCode1 + "@2x" + ".png");
@@ -176,28 +150,5 @@ document.getElementById("input").onclick = function () {
     getCity();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
