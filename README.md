@@ -1,14 +1,51 @@
-# weather-app-scaling-waddle
+# Weather-App
 
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
 
+
+  ## Badges
+
+
+  ## Table of Contents
+
+  * [License](#license)
+
+  * [Description](#description)
+
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+
+  * [How to Contribute](#how-to-contribute)
+
+  * [Tests](#tests)
+
+  * [Questions?](#questions)
+
+  ## License
+ This project has no license. 
+
+  ## Description
+
+  This weather app uses a server-side API to display the current weather of a chosen city as well as the 5 day forecast. 
+
+  ## Installation
+
+  This app requires no installation. 
+
+  ## Usage
+
+  Input a chosen city and see what the weather forecast and current weather is!
+
+  ## How to Contribute
+  
+  This app currently needs local storage. 
+  [Contributor Covenant](https://www.contributor-covenant.org/)
+
+  ## Tests
+ No tests for this app. 
+
+  ## Questions?
+
+  ### Reach me here: 
+  [https://github.com/tcampbell01] (https://github.com/tcampbell01)  
+  teresa.j.campbell@icloud.com
