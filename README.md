@@ -49,3 +49,4 @@
   ### Reach me here: 
   [https://github.com/tcampbell01] (https://github.com/tcampbell01)  
   teresa.j.campbell@icloud.com
+![weather dashboard](https://user-images.githubusercontent.com/93332105/153019891-35245e59-a9b9-431d-b9d0-7553fb7f0fb0.jpg)
